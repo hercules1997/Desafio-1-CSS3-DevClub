@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2? family= Poppins:wght@400;500;700 & family= Sono:wght@200;300;400;500;600 & display= troca");
+
+/* CONFIGURAÇÃO PADRÃO DA PÁGINA */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+}
+
+/* MENU DE NAVEGAÇÃO */
+nav {
+  margin-top: 47px;
+  margin-left: 42px;
+}
+
+.menu {
+  color: #17233d;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.875px;
+  font-style: normal;
+  height: 21px;
+  left: 0%;
+  padding: 15px 26px 11px 25px;
+  right: 4.6%;
+  top: calc(50% - 21px / 2 + 0.5px);
+}
+
+.menu:hover {
+  border-bottom: 5px solid #17233d;
+  background: #cfe3c5;
+  padding: 15px 26px 11px 25px;
+  border-radius: 6px;
+}
+
+nav button {
+  background: #6fbf44;
+  border: 1px solid #4cb538;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  padding: 10px 26px 11px 25px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background: #17233d;
+}
+
+/* CONTEÚDO */
+section {
+  display: inline-block;
+  margin-left: 88px;
+  width: 552px;
+}
+
+figure {
+  display: inline-block;
+  margin: 80px 0 0 183px;
+}
+
+img {
+  width: 450px;
+}
+
+h1 {
+  width: 552px;
+  height: 164px;
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 72px;
+  letter-spacing: 0.596154px;
+  color: #161a49;
+  margin-bottom: 25px;
+}
+
+section p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  height: 99px;
+  letter-spacing: 0.5px;
+  margin-right: 147px;
+  margin-bottom: 55px;
+  color: #4b505a;
+}
+
+main button {
+  background: transparent;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  color: #6fbf44;
+}
+
+main button:hover {
+  color: #17233d;
+}
+
+@media screen and (max-width: 412px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: right;
+    right: 22px;
+    top: 22px;
+  }
+
+  nav button {
+    font-size: 17px;
+  }
+
+  main {
+    display: block;
+    justify-content: center;
+    position: relative;
+  }
+
+  figure {
+    width: auto;
+    margin: 0;
+    position: relative;
+    display: block;
+  }
+
+  section {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+
+  }
+
+  section h1 {
+    width: auto;
+    height: auto;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 75px;
+  }
+
+  section h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 64px 20px 64px;
+    line-height: 20px;
+  }
+
+  figure img {
+    width: 394px;
+    margin: 40px 5px 20px 5px;
+  }
+
+
+  section p {
+    text-align: center;
+    margin: 25px 46px;
+  }
+
+  section button {
+    width: auto;
+    display: inline-block;
+    margin-top: 32px;
+
+  }
+}
+
