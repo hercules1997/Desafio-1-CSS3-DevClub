@@ -109,7 +109,7 @@ main button:hover {
   color: #17233d;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 750px) {
   * {
     box-sizing: border-box;
     margin: 0;
@@ -147,6 +147,7 @@ main button:hover {
     margin: 0;
     position: relative;
     display: block;
+    text-align: center;
   }
 
   section {
