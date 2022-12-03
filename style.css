@@ -109,7 +109,7 @@ main button:hover {
   color: #17233d;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1276px) {
   * {
     box-sizing: border-box;
     margin: 0;
