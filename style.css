@@ -137,26 +137,23 @@ main button:hover {
   }
 
   main {
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
     justify-content: center;
-    position: relative;
   }
 
   figure {
     width: auto;
     margin: 0;
-    position: relative;
-    display: block;
+    display: flex;
     text-align: center;
   }
 
   section {
-    width: auto;
+    width: 100%;
     margin: 0;
     padding: 0;
-    position: relative;
     text-align: center;
-
   }
 
   section h1 {
@@ -171,26 +168,24 @@ main button:hover {
   section h2 {
     text-align: center;
     font-size: 30px;
-    margin: 30px 64px 20px 64px;
     line-height: 20px;
+    width: 100%;
   }
 
   figure img {
-    width: 394px;
-    margin: 40px 5px 20px 5px;
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap-reverse;
   }
-
 
   section p {
     text-align: center;
-    margin: 25px 46px;
+    width: 100%;
+    padding: 20px;
   }
 
   section button {
-    width: auto;
-    display: inline-block;
+    width: 100%;
     margin-top: 32px;
-
   }
 }
-
